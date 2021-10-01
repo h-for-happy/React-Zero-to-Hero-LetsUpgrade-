@@ -1,0 +1,13 @@
+.cards{
+    display: flex;
+    padding: 20px;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.Products{
+    align-items: center;
+}
