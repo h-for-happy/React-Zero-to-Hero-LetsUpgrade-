@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+#Day 1 Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create 3 components and display on the web page one of it should be a class component.
 
-## Available Scripts
+3 components are Header,Products,Footer
 
-In the project directory, you can run:
 
-### `npm start`
+Day 2 Assignment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Create a array of products and display all the products with a good css.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Array of Product 
+const products = [
+        {
+            product_name:"MEN'S JACKET",
+            product_image_url: "http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/mens-better-than-naked-jacket-AVMH_LC9_hero.png",
+            product_descp : "In hac habitasse platea dictumst. Quisque diam nulla, tempor ac pretium sed, fringilla vitae urna. Maecenas auctor dignissim tristique. Donec rutrum urna sit amet ante blandit feugiat. Sed a tincidunt felis. Etiam nulla quam, tincidunt in dignissim eu, molestie sed orci. Nulla facilisis dui sed arcu sodales tincidunt. Etiam in arcu ligula. "
+         },
+         {
+            product_name:"WOMEN'S JACKET",
+            product_image_url:"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-better-than-naked-jacket-AVKL_NN4_hero.png",
+            product_descp: "In hac habitasse platea dictumst. Quisque diam nulla, tempor ac pretium sed, fringilla vitae urna. Maecenas auctor dignissim tristique. Donec rutrum urna sit amet ante blandit feugiat. Sed a tincidunt felis. Etiam nulla quam, tincidunt in dignissim eu, molestie sed orci. Nulla facilisis dui sed arcu sodales tincidunt. Etiam in arcu ligula. "
+           
+         },
+         {
+            product_name:"WOMEN'S SINGLE-TRACK SHOE",
+            product_image_url:"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-single-track-shoe-ALQF_JM3_hero.png",
+            product_descp: "In hac habitasse platea dictumst. Quisque diam nulla, tempor ac pretium sed, fringilla vitae urna. Maecenas auctor dignissim tristique. Donec rutrum urna sit amet ante blandit feugiat. Sed a tincidunt felis. Etiam nulla quam, tincidunt in dignissim eu, molestie sed orci. Nulla facilisis dui sed arcu sodales tincidunt. Etiam in arcu ligula. "
+           
+         },
+         {
+            product_name:"Enduro Boa Hydration Pack",
+            product_image_url:"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/enduro-boa-hydration-pack-AJQZ_JK3_hero.png",
+            product_descp: "In hac habitasse platea dictumst. Quisque diam nulla, tempor ac pretium sed, fringilla vitae urna. Maecenas auctor dignissim tristique. Donec rutrum urna sit amet ante blandit feugiat. Sed a tincidunt felis. Etiam nulla quam, tincidunt in dignissim eu, molestie sed orci. Nulla facilisis dui sed arcu sodales tincidunt. Etiam in arcu ligula."
+            
+         },
+         {
+            product_name:"MEN'S JACKET",
+            product_image_url:"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/mens-better-than-naked-jacket-AVMH_LC9_hero.png",
+            product_descp: "In hac habitasse platea dictumst. Quisque diam nulla, tempor ac pretium sed, fringilla vitae urna. Maecenas auctor dignissim tristique. Donec rutrum urna sit amet ante blandit feugiat. Sed a tincidunt felis. Etiam nulla quam, tincidunt in dignissim eu, molestie sed orci. Nulla facilisis dui sed arcu sodales tincidunt. Etiam in arcu ligula."
+           
+         }
+        
+        ];
+        
+        
+ ##Result
+ 
+ ![image](https://user-images.githubusercontent.com/58421879/135910185-b0193944-2251-4df6-a531-89208f9a9b77.png)
