@@ -49,6 +49,7 @@ function Product() {
                             <h3>{product.product_name}</h3>
                             <p>{product.product_descp}</p>
                         </div>
+                        <button className="btn">Buy Now</button>
                     </div>
                 ))
             };

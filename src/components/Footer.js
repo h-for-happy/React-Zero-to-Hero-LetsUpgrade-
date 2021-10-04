@@ -9,8 +9,8 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="Footer">
-                    <h4>2021 @ All Rights Reserved</h4>
+                <div className="Footer" >
+                    <p style={{"text-align":"center"}}>@ Copyrights 2021 | All Rights Reserved</p>
                 </div>
             </div>
         )

@@ -2,6 +2,7 @@
     width: 100%;
     padding: 25px;
     border-bottom: 1px solid grey;
+    overflow: hidden;
 }
 .navItems ul{
     list-style-type: none;
